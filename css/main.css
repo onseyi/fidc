@@ -1,0 +1,153 @@
+@charset "utf-8";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.bg-blue {
+    background-color: #13599f !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #fff;
+	font-size: 13px;
+    font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link a:hover{color: #fff;}
+.sec{
+	background-color: #094c92;
+	font-size: 13px;	
+	padding: 7px 0;
+	color:#fff;
+}
+
+.sec0{padding:20px 0;}
+
+.sec1{
+	color: #fff;
+	min-height: 400px;
+	padding: 100px 0;	
+	background: linear-gradient(90deg,#020b3e99, #141a23b3),url(../images/bk.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.sec2  {padding:60px 0;}
+.sec2 .card {background:#fcfcfc;}
+.sec2 .card h4 {color:#13599f;}
+.sec2 .card a {text-decoration:none; color:#333;}
+.sec2 .card:hover{background:#094c92;}
+.sec2 .card:hover h4 {color: #fff;}
+.sec2 .card:hover i {color: #fff;}
+.sec2 .card:hover .card-text{color: #fff;}
+
+.sec3  {padding:45px 0 0 0;}
+.brd{border:1px solid #f5f5f5;}
+
+footer {border-top:4px solid #13599f;}
+footer a {color:#fff;}
+footer b {color:#929292;}
+footer .bg {background-color:#232d36; color:#fff; padding: 5px 0;}
+
+.banner {
+    min-height: 550px;
+    background: url(../images/bn.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(2, 25, 82, 0.47);
+}
+
+.banner1 {
+    min-height: 300px;
+    background: url(../images/bn1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(2, 25, 82, 0.47); 
+}
+
+.cline{border: 1px solid #f8f8f8;}
+.uline{border: 2px solid #13599f; width:40px;}
+.uline1{border: 2px solid #fff; width:40px;}
+
+.ptop{padding-top: 10rem !important;}
+.ptop1{padding-top: 5rem !important;}
+
+.dform {
+    border: 2px solid #c4c4c4;
+    font-weight: 300;
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+    width: 100%;
+}
+
+.dform1 {
+    border: 2px solid #c4c4c4;
+    font-weight: 300;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.btn-white {
+    color: #fff !important;
+    background-color: none;
+    border: 2px solid #fff;
+}
+.btn-white: hover{color: #fff !important;}
+
+@media (min-width: 992px) {
+  body {
+
+  }
+}
+@media screen and ( max-width: 767px ) {
+
+}
+@media screen and ( max-width: 360px ) {
+	
+}
